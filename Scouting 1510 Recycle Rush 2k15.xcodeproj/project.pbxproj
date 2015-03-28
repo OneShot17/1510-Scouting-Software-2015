@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE4C9E41AC636A000EABB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */; };
+		DCE4C9E61AC636A000EABB79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9E51AC636A000EABB79 /* ViewController.swift */; };
+		DCE4C9E81AC636A000EABB79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE4C9E71AC636A000EABB79 /* Images.xcassets */; };
+		DCE4C9EB1AC636A000EABB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE4C9E91AC636A000EABB79 /* Main.storyboard */; };
+		DCE4C9F71AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9F61AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE4C9F11AC636A000EABB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE4C9D61AC636A000EABB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE4C9DD1AC636A000EABB79;
+			remoteInfo = "Scouting 1510 Recycle Rush 2k15";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE4C9DE1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scouting 1510 Recycle Rush 2k15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE4C9E21AC636A000EABB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCE4C9E51AC636A000EABB79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE4C9E71AC636A000EABB79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCE4C9EA1AC636A000EABB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCE4C9F01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scouting 1510 Recycle Rush 2k15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE4C9F51AC636A000EABB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE4C9F61AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scouting_1510_Recycle_Rush_2k15Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE4C9DB1AC636A000EABB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE4C9ED1AC636A000EABB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE4C9D51AC636A000EABB79 = {
+			isa = PBXGroup;
+			children = (
+				DCE4C9E01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */,
+				DCE4C9F31AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */,
+				DCE4C9DF1AC636A000EABB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE4C9DF1AC636A000EABB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4C9DE1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15.app */,
+				DCE4C9F01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE4C9E01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */,
+				DCE4C9E51AC636A000EABB79 /* ViewController.swift */,
+				DCE4C9E71AC636A000EABB79 /* Images.xcassets */,
+				DCE4C9E91AC636A000EABB79 /* Main.storyboard */,
+				DCE4C9E11AC636A000EABB79 /* Supporting Files */,
+			);
+			path = "Scouting 1510 Recycle Rush 2k15";
+			sourceTree = "<group>";
+		};
+		DCE4C9E11AC636A000EABB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4C9E21AC636A000EABB79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE4C9F31AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4C9F61AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift */,
+				DCE4C9F41AC636A000EABB79 /* Supporting Files */,
+			);
+			path = "Scouting 1510 Recycle Rush 2k15Tests";
+			sourceTree = "<group>";
+		};
+		DCE4C9F41AC636A000EABB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4C9F51AC636A000EABB79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE4C9DD1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE4C9FA1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15" */;
+			buildPhases = (
+				DCE4C9DA1AC636A000EABB79 /* Sources */,
+				DCE4C9DB1AC636A000EABB79 /* Frameworks */,
+				DCE4C9DC1AC636A000EABB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scouting 1510 Recycle Rush 2k15";
+			productName = "Scouting 1510 Recycle Rush 2k15";
+			productReference = DCE4C9DE1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE4C9EF1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE4C9FD1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15Tests" */;
+			buildPhases = (
+				DCE4C9EC1AC636A000EABB79 /* Sources */,
+				DCE4C9ED1AC636A000EABB79 /* Frameworks */,
+				DCE4C9EE1AC636A000EABB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE4C9F21AC636A000EABB79 /* PBXTargetDependency */,
+			);
+			name = "Scouting 1510 Recycle Rush 2k15Tests";
+			productName = "Scouting 1510 Recycle Rush 2k15Tests";
+			productReference = DCE4C9F01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE4C9D61AC636A000EABB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Stephen Brimhall";
+				TargetAttributes = {
+					DCE4C9DD1AC636A000EABB79 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DCE4C9EF1AC636A000EABB79 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DCE4C9DD1AC636A000EABB79;
+					};
+				};
+			};
+			buildConfigurationList = DCE4C9D91AC636A000EABB79 /* Build configuration list for PBXProject "Scouting 1510 Recycle Rush 2k15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCE4C9D51AC636A000EABB79;
+			productRefGroup = DCE4C9DF1AC636A000EABB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE4C9DD1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */,
+				DCE4C9EF1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE4C9DC1AC636A000EABB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE4C9E81AC636A000EABB79 /* Images.xcassets in Resources */,
+				DCE4C9EB1AC636A000EABB79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE4C9EE1AC636A000EABB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE4C9DA1AC636A000EABB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE4C9E61AC636A000EABB79 /* ViewController.swift in Sources */,
+				DCE4C9E41AC636A000EABB79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE4C9EC1AC636A000EABB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE4C9F71AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE4C9F21AC636A000EABB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE4C9DD1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */;
+			targetProxy = DCE4C9F11AC636A000EABB79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCE4C9E91AC636A000EABB79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE4C9EA1AC636A000EABB79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE4C9F81AC636A000EABB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCE4C9F91AC636A000EABB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCE4C9FB1AC636A000EABB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCE4C9FC1AC636A000EABB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCE4C9FE1AC636A000EABB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scouting 1510 Recycle Rush 2k15.app/Contents/MacOS/Scouting 1510 Recycle Rush 2k15";
+			};
+			name = Debug;
+		};
+		DCE4C9FF1AC636A000EABB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scouting 1510 Recycle Rush 2k15.app/Contents/MacOS/Scouting 1510 Recycle Rush 2k15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE4C9D91AC636A000EABB79 /* Build configuration list for PBXProject "Scouting 1510 Recycle Rush 2k15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE4C9F81AC636A000EABB79 /* Debug */,
+				DCE4C9F91AC636A000EABB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE4C9FA1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE4C9FB1AC636A000EABB79 /* Debug */,
+				DCE4C9FC1AC636A000EABB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE4C9FD1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE4C9FE1AC636A000EABB79 /* Debug */,
+				DCE4C9FF1AC636A000EABB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE4C9D61AC636A000EABB79 /* Project object */;
+}
