@@ -7,33 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC32CF861AC9B9FA00353137 /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CF851AC9B9FA00353137 /* PreferenceController.swift */; };
+		DC8AE6591ACB322800163608 /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8AE6581ACB322800163608 /* FileIO.framework */; };
+		DCA84C3E1ACA5D0C003244FD /* ESEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */; };
+		DCA84C3F1ACA5D0C003244FD /* ESTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */; };
+		DCA84C411ACAEE59003244FD /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C401ACAEE59003244FD /* Bool.swift */; };
 		DCE4C9E41AC636A000EABB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */; };
 		DCE4C9E61AC636A000EABB79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9E51AC636A000EABB79 /* ViewController.swift */; };
 		DCE4C9E81AC636A000EABB79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE4C9E71AC636A000EABB79 /* Images.xcassets */; };
 		DCE4C9EB1AC636A000EABB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE4C9E91AC636A000EABB79 /* Main.storyboard */; };
-		DCE4C9F71AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9F61AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift */; };
+		DCE4CA051AC63C6A00EABB79 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4CA041AC63C6A00EABB79 /* Globals.swift */; };
+		DCE4CA071AC63CA900EABB79 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4CA061AC63CA900EABB79 /* Match.swift */; };
+		DCE4CA0D1AC6406A00EABB79 /* DriverStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4CA0C1AC6406A00EABB79 /* DriverStation.swift */; };
+		DCE4CA0F1AC6417500EABB79 /* StartupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4CA0E1AC6417500EABB79 /* StartupController.swift */; };
+		DCEAEADD1ACA55B400DA10C9 /* ImplicitCastingOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEAEADC1ACA55B400DA10C9 /* ImplicitCastingOperators.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DCE4C9F11AC636A000EABB79 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DCE4C9D61AC636A000EABB79 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DCE4C9DD1AC636A000EABB79;
-			remoteInfo = "Scouting 1510 Recycle Rush 2k15";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DCE4C9DE1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scouting 1510 Recycle Rush 2k15.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC32CF821AC9A27400353137 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		DC32CF851AC9B9FA00353137 /* PreferenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
+		DC8AE6581ACB322800163608 /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FileIO.framework; sourceTree = "<group>"; };
+		DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESEvent.swift; sourceTree = "<group>"; };
+		DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTimer.swift; sourceTree = "<group>"; };
+		DCA84C401ACAEE59003244FD /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		DCE4C9DE1AC636A000EABB79 /* 1510 Scouting System 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1510 Scouting System 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE4C9E21AC636A000EABB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE4C9E51AC636A000EABB79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCE4C9E71AC636A000EABB79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCE4C9EA1AC636A000EABB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCE4C9F01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scouting 1510 Recycle Rush 2k15Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCE4C9F51AC636A000EABB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCE4C9F61AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scouting_1510_Recycle_Rush_2k15Tests.swift; sourceTree = "<group>"; };
+		DCE4CA041AC63C6A00EABB79 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		DCE4CA061AC63CA900EABB79 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		DCE4CA0C1AC6406A00EABB79 /* DriverStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverStation.swift; sourceTree = "<group>"; };
+		DCE4CA0E1AC6417500EABB79 /* StartupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartupController.swift; path = ../StartupController.swift; sourceTree = "<group>"; };
+		DCEAEADC1ACA55B400DA10C9 /* ImplicitCastingOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImplicitCastingOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DCE4C9ED1AC636A000EABB79 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DC8AE6591ACB322800163608 /* FileIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				DCE4C9E01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */,
-				DCE4C9F31AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */,
 				DCE4C9DF1AC636A000EABB79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,8 +66,7 @@
 		DCE4C9DF1AC636A000EABB79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCE4C9DE1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15.app */,
-				DCE4C9F01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests.xctest */,
+				DCE4C9DE1AC636A000EABB79 /* 1510 Scouting System 2015.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,10 +74,21 @@
 		DCE4C9E01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */ = {
 			isa = PBXGroup;
 			children = (
+				DC8AE6581ACB322800163608 /* FileIO.framework */,
+				DCE4CA0E1AC6417500EABB79 /* StartupController.swift */,
 				DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */,
+				DCE4CA041AC63C6A00EABB79 /* Globals.swift */,
+				DCE4CA0C1AC6406A00EABB79 /* DriverStation.swift */,
+				DCE4CA061AC63CA900EABB79 /* Match.swift */,
+				DCA84C401ACAEE59003244FD /* Bool.swift */,
+				DCEAEADC1ACA55B400DA10C9 /* ImplicitCastingOperators.swift */,
 				DCE4C9E51AC636A000EABB79 /* ViewController.swift */,
+				DC32CF821AC9A27400353137 /* MyPlayground.playground */,
 				DCE4C9E71AC636A000EABB79 /* Images.xcassets */,
 				DCE4C9E91AC636A000EABB79 /* Main.storyboard */,
+				DC32CF851AC9B9FA00353137 /* PreferenceController.swift */,
+				DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */,
+				DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */,
 				DCE4C9E11AC636A000EABB79 /* Supporting Files */,
 			);
 			path = "Scouting 1510 Recycle Rush 2k15";
@@ -92,29 +102,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DCE4C9F31AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */ = {
-			isa = PBXGroup;
-			children = (
-				DCE4C9F61AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift */,
-				DCE4C9F41AC636A000EABB79 /* Supporting Files */,
-			);
-			path = "Scouting 1510 Recycle Rush 2k15Tests";
-			sourceTree = "<group>";
-		};
-		DCE4C9F41AC636A000EABB79 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DCE4C9F51AC636A000EABB79 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCE4C9DD1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */ = {
+		DCE4C9DD1AC636A000EABB79 /* 1510 Scouting System 2015 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCE4C9FA1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15" */;
+			buildConfigurationList = DCE4C9FA1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "1510 Scouting System 2015" */;
 			buildPhases = (
 				DCE4C9DA1AC636A000EABB79 /* Sources */,
 				DCE4C9DB1AC636A000EABB79 /* Frameworks */,
@@ -124,28 +117,10 @@
 			);
 			dependencies = (
 			);
-			name = "Scouting 1510 Recycle Rush 2k15";
+			name = "1510 Scouting System 2015";
 			productName = "Scouting 1510 Recycle Rush 2k15";
-			productReference = DCE4C9DE1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15.app */;
+			productReference = DCE4C9DE1AC636A000EABB79 /* 1510 Scouting System 2015.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DCE4C9EF1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DCE4C9FD1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15Tests" */;
-			buildPhases = (
-				DCE4C9EC1AC636A000EABB79 /* Sources */,
-				DCE4C9ED1AC636A000EABB79 /* Frameworks */,
-				DCE4C9EE1AC636A000EABB79 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCE4C9F21AC636A000EABB79 /* PBXTargetDependency */,
-			);
-			name = "Scouting 1510 Recycle Rush 2k15Tests";
-			productName = "Scouting 1510 Recycle Rush 2k15Tests";
-			productReference = DCE4C9F01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -158,14 +133,15 @@
 				TargetAttributes = {
 					DCE4C9DD1AC636A000EABB79 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					DCE4C9EF1AC636A000EABB79 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = DCE4C9DD1AC636A000EABB79;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = DCE4C9D91AC636A000EABB79 /* Build configuration list for PBXProject "Scouting 1510 Recycle Rush 2k15" */;
+			buildConfigurationList = DCE4C9D91AC636A000EABB79 /* Build configuration list for PBXProject "1510 Scouting System 2015" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,8 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCE4C9DD1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */,
-				DCE4C9EF1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15Tests */,
+				DCE4C9DD1AC636A000EABB79 /* 1510 Scouting System 2015 */,
 			);
 		};
 /* End PBXProject section */
@@ -194,13 +169,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE4C9EE1AC636A000EABB79 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -208,28 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA84C3E1ACA5D0C003244FD /* ESEvent.swift in Sources */,
+				DCE4CA051AC63C6A00EABB79 /* Globals.swift in Sources */,
+				DCE4CA0F1AC6417500EABB79 /* StartupController.swift in Sources */,
 				DCE4C9E61AC636A000EABB79 /* ViewController.swift in Sources */,
+				DCA84C411ACAEE59003244FD /* Bool.swift in Sources */,
+				DC32CF861AC9B9FA00353137 /* PreferenceController.swift in Sources */,
+				DCEAEADD1ACA55B400DA10C9 /* ImplicitCastingOperators.swift in Sources */,
+				DCE4CA071AC63CA900EABB79 /* Match.swift in Sources */,
+				DCA84C3F1ACA5D0C003244FD /* ESTimer.swift in Sources */,
+				DCE4CA0D1AC6406A00EABB79 /* DriverStation.swift in Sources */,
 				DCE4C9E41AC636A000EABB79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCE4C9EC1AC636A000EABB79 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DCE4C9F71AC636A000EABB79 /* Scouting_1510_Recycle_Rush_2k15Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DCE4C9F21AC636A000EABB79 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DCE4C9DD1AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */;
-			targetProxy = DCE4C9F11AC636A000EABB79 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DCE4C9E91AC636A000EABB79 /* Main.storyboard */ = {
@@ -325,9 +286,48 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+				);
 				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "1510 Scouting System 2015";
 			};
 			name = Debug;
 		};
@@ -336,52 +336,55 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
+				);
 				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DCE4C9FE1AC636A000EABB79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scouting 1510 Recycle Rush 2k15.app/Contents/MacOS/Scouting 1510 Recycle Rush 2k15";
-			};
-			name = Debug;
-		};
-		DCE4C9FF1AC636A000EABB79 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scouting 1510 Recycle Rush 2k15.app/Contents/MacOS/Scouting 1510 Recycle Rush 2k15";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "1510 Scouting System 2015";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCE4C9D91AC636A000EABB79 /* Build configuration list for PBXProject "Scouting 1510 Recycle Rush 2k15" */ = {
+		DCE4C9D91AC636A000EABB79 /* Build configuration list for PBXProject "1510 Scouting System 2015" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCE4C9F81AC636A000EABB79 /* Debug */,
@@ -390,21 +393,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCE4C9FA1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15" */ = {
+		DCE4C9FA1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "1510 Scouting System 2015" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCE4C9FB1AC636A000EABB79 /* Debug */,
 				DCE4C9FC1AC636A000EABB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DCE4C9FD1AC636A000EABB79 /* Build configuration list for PBXNativeTarget "Scouting 1510 Recycle Rush 2k15Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCE4C9FE1AC636A000EABB79 /* Debug */,
-				DCE4C9FF1AC636A000EABB79 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
