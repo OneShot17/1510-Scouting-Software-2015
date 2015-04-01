@@ -2,6 +2,8 @@
 //  ImplicitCastingOperators.swift
 //  1510 Scouting System 2015
 //
+//  Allows me to use + and += with numbers and strings together. Returns a string.
+//
 //  Created by Stephen Brimhall on 3/30/15.
 //  Copyright (c) 2015 Stephen Brimhall. All rights reserved.
 //
