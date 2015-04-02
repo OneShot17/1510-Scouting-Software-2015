@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC32CF861AC9B9FA00353137 /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CF851AC9B9FA00353137 /* PreferenceController.swift */; };
-		DC8AE6591ACB322800163608 /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8AE6581ACB322800163608 /* FileIO.framework */; };
+		DC99F88A1ACDFFE500E63292 /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC99F8891ACDFFE500E63292 /* FileIO.framework */; };
 		DCA84C3E1ACA5D0C003244FD /* ESEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */; };
 		DCA84C3F1ACA5D0C003244FD /* ESTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */; };
 		DCA84C411ACAEE59003244FD /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C401ACAEE59003244FD /* Bool.swift */; };
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		DC32CF821AC9A27400353137 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		DC32CF851AC9B9FA00353137 /* PreferenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
-		DC8AE6581ACB322800163608 /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FileIO.framework; sourceTree = "<group>"; };
+		DC99F8891ACDFFE500E63292 /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FileIO.framework; sourceTree = "<group>"; };
 		DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESEvent.swift; sourceTree = "<group>"; };
 		DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTimer.swift; sourceTree = "<group>"; };
 		DCA84C401ACAEE59003244FD /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC8AE6591ACB322800163608 /* FileIO.framework in Frameworks */,
+				DC99F88A1ACDFFE500E63292 /* FileIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		DCE4C9E01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */ = {
 			isa = PBXGroup;
 			children = (
-				DC8AE6581ACB322800163608 /* FileIO.framework */,
+				DC99F8891ACDFFE500E63292 /* FileIO.framework */,
 				DCE4CA0E1AC6417500EABB79 /* StartupController.swift */,
 				DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */,
 				DCE4CA041AC63C6A00EABB79 /* Globals.swift */,
@@ -323,6 +323,11 @@
 					Recycle,
 					Rush,
 					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
 				);
 				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -338,6 +343,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
 					"$(PROJECT_DIR)/Scouting",
 					1510,
 					Recycle,
