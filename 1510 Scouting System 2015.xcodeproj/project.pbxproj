@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC09127A1ACC48A400C7C2CC /* FileIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0912791ACC48A400C7C2CC /* FileIO.framework */; };
 		DC32CF861AC9B9FA00353137 /* PreferenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC32CF851AC9B9FA00353137 /* PreferenceController.swift */; };
 		DCA84C3E1ACA5D0C003244FD /* ESEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */; };
 		DCA84C3F1ACA5D0C003244FD /* ESTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */; };
 		DCA84C411ACAEE59003244FD /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA84C401ACAEE59003244FD /* Bool.swift */; };
+		DCAE98D61AD7379D00226166 /* FileIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE98D21AD7379D00226166 /* FileIn.swift */; };
+		DCAE98D71AD7379D00226166 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE98D31AD7379D00226166 /* Functions.swift */; };
+		DCAE98D81AD7379D00226166 /* FileOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE98D41AD7379D00226166 /* FileOut.swift */; };
+		DCAE98D91AD7379D00226166 /* IOFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE98D51AD7379D00226166 /* IOFlags.swift */; };
 		DCE4C9E41AC636A000EABB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */; };
 		DCE4C9E61AC636A000EABB79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE4C9E51AC636A000EABB79 /* ViewController.swift */; };
 		DCE4C9E81AC636A000EABB79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE4C9E71AC636A000EABB79 /* Images.xcassets */; };
@@ -24,12 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC0912791ACC48A400C7C2CC /* FileIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileIO.framework; path = "Scouting 1510 Recycle Rush 2k15/FileIO.framework"; sourceTree = "<group>"; };
 		DC32CF821AC9A27400353137 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		DC32CF851AC9B9FA00353137 /* PreferenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceController.swift; sourceTree = "<group>"; };
 		DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESEvent.swift; sourceTree = "<group>"; };
 		DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESTimer.swift; sourceTree = "<group>"; };
 		DCA84C401ACAEE59003244FD /* Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bool.swift; sourceTree = "<group>"; };
+		DCAE98D21AD7379D00226166 /* FileIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileIn.swift; sourceTree = "<group>"; };
+		DCAE98D31AD7379D00226166 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DCAE98D41AD7379D00226166 /* FileOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileOut.swift; sourceTree = "<group>"; };
+		DCAE98D51AD7379D00226166 /* IOFlags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOFlags.swift; sourceTree = "<group>"; };
 		DCE4C9DE1AC636A000EABB79 /* 1510 Scouting System 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1510 Scouting System 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE4C9E21AC636A000EABB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE4C9E31AC636A000EABB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC09127A1ACC48A400C7C2CC /* FileIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +63,6 @@
 		DCE4C9D51AC636A000EABB79 = {
 			isa = PBXGroup;
 			children = (
-				DC0912791ACC48A400C7C2CC /* FileIO.framework */,
 				DCE4C9E01AC636A000EABB79 /* Scouting 1510 Recycle Rush 2k15 */,
 				DCE4C9DF1AC636A000EABB79 /* Products */,
 			);
@@ -89,6 +93,10 @@
 				DC32CF851AC9B9FA00353137 /* PreferenceController.swift */,
 				DCA84C3C1ACA5D0C003244FD /* ESEvent.swift */,
 				DCA84C3D1ACA5D0C003244FD /* ESTimer.swift */,
+				DCAE98D21AD7379D00226166 /* FileIn.swift */,
+				DCAE98D31AD7379D00226166 /* Functions.swift */,
+				DCAE98D41AD7379D00226166 /* FileOut.swift */,
+				DCAE98D51AD7379D00226166 /* IOFlags.swift */,
 				DCE4C9E11AC636A000EABB79 /* Supporting Files */,
 			);
 			path = "Scouting 1510 Recycle Rush 2k15";
@@ -179,9 +187,13 @@
 				DCA84C3E1ACA5D0C003244FD /* ESEvent.swift in Sources */,
 				DCE4CA051AC63C6A00EABB79 /* Globals.swift in Sources */,
 				DCE4CA0F1AC6417500EABB79 /* StartupController.swift in Sources */,
+				DCAE98D91AD7379D00226166 /* IOFlags.swift in Sources */,
 				DCE4C9E61AC636A000EABB79 /* ViewController.swift in Sources */,
 				DCA84C411ACAEE59003244FD /* Bool.swift in Sources */,
+				DCAE98D71AD7379D00226166 /* Functions.swift in Sources */,
+				DCAE98D81AD7379D00226166 /* FileOut.swift in Sources */,
 				DC32CF861AC9B9FA00353137 /* PreferenceController.swift in Sources */,
+				DCAE98D61AD7379D00226166 /* FileIn.swift in Sources */,
 				DCEAEADD1ACA55B400DA10C9 /* ImplicitCastingOperators.swift in Sources */,
 				DCE4CA071AC63CA900EABB79 /* Match.swift in Sources */,
 				DCA84C3F1ACA5D0C003244FD /* ESTimer.swift in Sources */,
@@ -328,6 +340,11 @@
 					Recycle,
 					Rush,
 					2k15,
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
 				);
 				INFOPLIST_FILE = "Scouting 1510 Recycle Rush 2k15/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -343,6 +360,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Scouting",
+					1510,
+					Recycle,
+					Rush,
+					2k15,
 					"$(PROJECT_DIR)/Scouting",
 					1510,
 					Recycle,

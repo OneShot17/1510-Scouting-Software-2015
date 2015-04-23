@@ -8,7 +8,6 @@
 
 import Cocoa
 import Foundation
-import FileIO
 
 class ViewController: NSViewController {
 	
@@ -110,6 +109,9 @@ class ViewController: NSViewController {
 		match.teleTotes = teleTotes.integerValue;
 		match.teleNoodles = teleLitter.integerValue;
 		match.teleTotesPerStackAvg = teleTotes.doubleValue / teleStacks.doubleValue;
+		if teleStacks.doubleValue == 0 {
+			match.teleTotesPerStackAvg = 0;
+		}
 		match.teleStacks = teleStacks.integerValue;
 		match.teleBinMaxHeight = maxBinHeight.integerValue;
 		match.endInAuto = endInAuto;

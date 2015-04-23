@@ -8,7 +8,6 @@
 
 import Cocoa
 import Foundation
-import FileIO
 import AppKit
 
 @NSApplicationMain
@@ -88,6 +87,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 			for match in Globals.matches {
 				file.write(match.toCSV());
 				file.write("\n");
+				Globals.matches.removeAll();
 			}
 		} else {
 			let saveDialog = NSSavePanel();
